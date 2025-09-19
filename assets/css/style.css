@@ -145,9 +145,14 @@ img {
     .row {
         display: flex;
         flex-wrap: wrap;
+        gap: 5rem;
     }
 
     .steps .col {
+        width: 100%;
+    }
+
+    .lessons .col {
         width: 100%;
     }
 }
